@@ -1,0 +1,39 @@
+.header{
+    background-color: rgb(213, 212, 210);
+    height: 30px;
+}
+.header2{
+    display: flex;
+    flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+select{
+  width:11rem;
+  height: 25px;
+  padding-left:10px;
+  margin-right: 20px;
+  border: 1px solid rgb(193, 191, 191);
+  border-radius: 5px;
+}
+
+ul{
+  margin-right: 20px;
+}
+
+button{
+  background-color: rgba(9, 32, 237, 0.659);
+  margin-left:30px;
+  border: 1px solid transparent;
+  width: 7rem;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  padding-bottom: 4px;
+}
+a{
+ text-align: justify 5px;
+ margin-left: 30px;
+ margin-right: 20px;
+}

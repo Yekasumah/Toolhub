@@ -1,0 +1,98 @@
+.tool{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 12em;
+    
+}
+
+h1,h3{
+    text-align: justify;
+    
+}
+
+p{
+    color: rgba(0, 0, 0, 0.594);
+}
+
+h1{
+  font-size: 4rem;
+  font-weight: 500;
+    margin-top: 12px;
+}
+h3{
+    font-size: 1.5rem;
+    padding-left: 14.4px;
+}
+
+.stn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 3rem;
+    margin-left: 15rem;
+}
+.sla{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 26rem;
+    margin-bottom: 20px;
+}
+
+#button{
+    background-color: rgba(228, 225, 225, 0.659);
+    margin-left:5px;
+    border: 1px solid transparent;
+    width: 11rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input{
+    background-color: transparent;
+    margin-left:20px;
+    border: 2px solid  rgba(228, 225, 225, 0.659);
+    width: 32rem;
+    border-radius: 5px;
+    justify-self: center;
+    height: 2.5rem;
+    text-indent: 10px;
+    margin-top: 20px;
+
+}
+input::placeholder{
+    text-indent: 10px;
+}
+.pgh{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#lnk1{
+    opacity: 60%;
+    margin-left: 20px;
+}
+#link:hover{
+    border-bottom: 5px solid blue;
+    cursor: pointer;
+}
+.card{
+    background-color:  rgba(228, 225, 225, 0.659);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    border: 1px solid rgba(228, 225, 225, 0.659);
+    
+}
